@@ -1,0 +1,34 @@
+{
+    "titleMain": { "text": "TNC Louisiana", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
+    "titleDetail": { "text": "Freshwater Assesment", "url": "http://blog.nature.org/conservancy/tag/louisiana-freshwater-assessment-system/" },
+    "headerLinks": [
+        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "Partners", "url": "partners.html", "popup": true },
+        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" }
+    ],
+    "initialExtent": [
+        -95.55,
+        29.04,
+        -87.49,
+        33.29
+    ],
+    "basemaps": [
+        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+    ],
+    "pluginOrder": [
+        "layer_selector",
+        "measure"
+    ],
+    "colors": {
+        "primary": "#457545",
+        "secondary": "#81b94d"
+    },
+    "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+}

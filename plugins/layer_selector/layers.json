@@ -1,0 +1,20 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana_Freshwater",
+            "folders": [
+                {
+                    "name": "Louisiana_Freshwater",
+                    "services": [
+                        "Hydrologic_Impairment_Features",
+                        "Hydrologic_Impairment",
+                        "Land_Cover",
+                        "Managed_Areas",
+                        "Watershed_and_Political_Boundaries"
+                    ]
+                }
+            ]
+        }
+    }
+]
