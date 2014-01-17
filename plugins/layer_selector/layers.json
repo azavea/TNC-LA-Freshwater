@@ -2,16 +2,19 @@
     {
         "agsSource": {
             "url": "http://50.18.215.52/arcgis/rest/services/",
-            "folderTitle": "Louisiana_Freshwater",
+            "folderTitle": "Louisiana Freshwater",
             "folders": [
                 {
-                    "name": "Louisiana_Freshwater",
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "groupFolder": "Louisiana Freshwater",
+                    "groupAsService": true,
+                    "name": "",
                     "services": [
-                        "Hydrologic_Impairment_Features",
-                        "Hydrologic_Impairment",
-                        "Land_Cover",
-                        "Managed_Areas",
-                        "Watershed_and_Political_Boundaries"
+                        { "name": "Hydrologic_Impairment_Features", "displayName": "Hydrologic Features", "type": "dynamic", "opacity": 0.75},
+                        { "name": "Hydrologic_Impairment", "displayName": "Hydrologic Impairment", "type": "dynamic", "opacity": 0.75},
+                        { "name": "Land_Cover", "displayName": "Land Cover", "type": "dynamic", "opacity": 0.75},
+                        { "name": "Managed_Areas", "displayName": "Managed Areas", "type": "dynamic", "opacity": 0.75},
+                        { "name": "Watershed_and_Political_Boundaries", "displayName": "Watershed and Political Boundaries", "type": "dynamic", "opacity": 0.75}
                     ]
                 }
             ]
