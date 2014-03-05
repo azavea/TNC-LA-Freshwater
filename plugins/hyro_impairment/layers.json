@@ -1,0 +1,19 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana Freshwater",
+            "folders": [
+                {
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "name": "",
+                    "services": [
+                        { "name": "Maknockanut_Lake", "type": "dynamic"},
+                        { "name": "Hydrologic_Impairment_Features", "type": "dynamic"},
+                        { "name": "Hydrologic_Impairment_Assessments", "type": "dynamic"}
+                     ]
+                }
+            ]
+        }
+    }
+]
