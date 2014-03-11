@@ -31,7 +31,7 @@
         "primary": "#457545",
         "secondary": "#81b94d"
     },
-    "export": {
+    "print": {
         "printServerUrl": "http://50.18.215.52/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
     }
 }
