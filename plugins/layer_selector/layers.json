@@ -8,11 +8,13 @@
                     "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
                     "name": "",
                     "services": [
+                        { "name": "River_and_Stream_Features", "type": "dynamic",
+                        "isNew": { "startDate": "4/30/2014", "endDate": "5/30/2014" },
+                            "showLayers": [
+                                {"id":0, "parentLayerId":-1, "downloadUrl": "downloads/majr_streams_rivers.zip"}]},
                         { "name": "Watershed_and_Political_Boundaries", "type": "dynamic"},
                         { "name": "Managed_Areas", "type": "dynamic"},
-                        { "name": "Land_Cover", "type": "dynamic"},
-                        { "name": "Hydrologic_Impairment_Features", "type": "dynamic"},
-                        { "name": "Hydrologic_Impairment_Assessments", "type": "dynamic"}
+                        { "name": "Land_Cover", "type": "dynamic"}
                      ]
                 }
             ]

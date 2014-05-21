@@ -8,9 +8,13 @@
                     "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
                     "name": "",
                     "services": [
-                        { "name": "Maknockanut_Lake", "type": "dynamic"},
-                        { "name": "Hydrologic_Impairment_Features", "type": "dynamic"},
-                        { "name": "Hydrologic_Impairment_Assessments", "type": "dynamic"}
+                        { "name": "Hydrologic_Impairment_Features", "type": "dynamic",
+                            "showLayers": [
+                                {"id":0, "parentLayerId":-1, "downloadUrl": "downloads/canals.zip"},
+                                {"id":1, "parentLayerId":-1, "downloadUrl": "downloads/Channelization.zip"},
+                                {"id":2, "parentLayerId":-1}]},
+                        { "name": "HUC_8_Hydrologic_Impairment_Assessments", "type": "dynamic"},
+                        { "name": "HUC_12_Hydrologic_Impairment_Assessments", "type": "dynamic"}
                      ]
                 }
             ]

@@ -2,7 +2,7 @@
     "titleMain": { "text": "TNC Louisiana", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/louisiana/placesweprotect/index.htm" },
     "titleDetail": { "text": "Freshwater Assesment", "url": "http://blog.nature.org/conservancy/tag/louisiana-freshwater-assessment-system/" },
     "headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "The Nature Conservancy", "url": "http://nature.org/freshwater/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
         { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
@@ -27,11 +27,15 @@
         "layer_selector",
         "measure"
     ],
+    
+    "identifyBlacklist":["OBJECTID", "Shape"],
+    
     "colors": {
         "primary": "#457545",
         "secondary": "#81b94d"
     },
     "print": {
-        "printServerUrl": "http://50.18.215.52/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+        "printServerUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/ExportWebMap/GPServer/Export%20Web%20Map",
+        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
     }
 }
