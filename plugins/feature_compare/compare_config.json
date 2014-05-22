@@ -23,9 +23,9 @@
         {
             "name": "HUC 12",
             "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Watershed_and_Political_Boundaries/MapServer/1",
-            "mapDisplayAttribute": "HU_12_NAME",
+            "mapDisplayAttribute": "SUBWATERSHED",
             "attrs": [
-                {"name": "HU_12_NAME", "format": "text", "maxLength": 32},
+                {"name": "SUBWATERSHED", "format": "text", "maxLength": 32},
                 {"name": "Dm_100sqmi", "format": "number", "digits": 4, "unit": " mi<sup>2</sup>", "nonZeroCutoff": 0.0001},
                 {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
                 {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},
